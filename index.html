@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+    html,body{
+    	padding: 0;margin: 0;width: 100%;height: 100%;
+    	overflow: hidden;
+    	background:#000;
+    	position: absolute;
+    	color: #fff;
+        font-family:"SN NeoNoire";
+        
+    }
+    body .tiaocengji{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    body span{
+                font-size: 40px;
+                color: #ffdb3d;
+    }
+    .bigbox{
+        width: 100%;
+        height: 30px;
+
+        position: absolute;
+        bottom: 0;
+        z-index: 9;
+    }
+    .bigbox div{
+        height: 30px;
+        width: 8.3%;
+        float: left;
+        background: #01652f;
+        text-align: center;
+        line-height: 30px;
+        border:3px solid #dce31c;
+        border-radius: 10px;
+        margin: 0 25px;
+        opacity: 0.5;
+    }
+    .welcome{
+        width: 300px;
+        height: 200px;
+        position: fixed;
+        top: 20%;
+        left: 34%;
+        z-index: 2;
+    }
+    .jinruyouxi{
+        width: 80px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        position: relative;
+        top: 200px;
+        left: 310px;
+        background: #ffdb3d;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .xiayiguan{
+
+        position: absolute;
+        top: 25%;
+        left: 35%;
+        display: none;
+        z-index: 10;
+        cursor: pointer;
+    }
+    .youxijieshu{
+        position: absolute;
+        top: 30%;
+        left: 35%;
+        display: none;
+        z-index: 100;
+        cursor: pointer;
+    }
+	</style>
+</head>
+<body>
+   <img src="f7246b600c33874429c49805570fd9f9d72aa042.jpg" alt="" width="100%"
+    height="100%" class="tiaocengji">
+<!--<img src="20091113_a0833ad59563fabb1d94mm5RseMsejp1.jpg" alt="" width="100%"-->
+    <!--height="100%" style="z-index:14;opacity:0.9" class="tiaocengji youxibeijing">-->
+    <div class="welcome">
+        <div class="jinruyouxi">
+            进入游戏
+        </div>
+        <img src="u=2259706245,2400711346&fm=21&gp=0.jpg" alt="">
+       
+        
+    </div>
+    <div class="youxijieshu">
+            <img src="over.jpg" alt="">
+        </div>
+     <div class="xiayiguan">
+            <img src="next.jpg" alt="">
+        </div>
+    <div class="bigbox">
+        <div>生命值:</div>
+        <div class="life">3</div>
+        <div>当前分数:</div>
+        <div class="fenshu">0</div>
+        <div>关卡:</div>
+        <div class="guanqia">1</div>
+        <div>总分数:</div>
+        <div class="zongfenshu">0</div>
+
+    </div>
+   <audio src="Legacy of Flame.mp3"></audio>
+</body>
+<script src="兼容通用.js"></script>
+<script src="面向对象game.js"></script>
+</html>
